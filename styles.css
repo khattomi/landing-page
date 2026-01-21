@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;   
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header, .subheader, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+a {
+    border-bottom: #E5E7EB solid 1px;
+}
+
+.header, .subheader {
+    padding: 10px 50px 40px 50px;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.group-photo {
+    width: 300px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.photo img {
+    width: 150px;
+    height: 200px;
+    border: #1F2937 1px solid;
+    border-radius: 10px;
+}
+
+.photo p {
+    width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+h4 {
+    text-align: end;
+}
+
+.photo p, .quote p {
+    text-align: center;
+}
+
+.showcase, .quote {
+    color: #1F2937;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 40px;
+    padding: 10px 50px;
+    width: 600px;  
+    border-radius: 10px;
+}
+
+button {
+    all: unset;
+    width: 80px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px; 
+}
+
+.sign-up button {
+    border: 1px white solid; 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: smaller;
+}
